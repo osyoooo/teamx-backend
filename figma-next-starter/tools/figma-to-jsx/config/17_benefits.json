@@ -1,0 +1,33 @@
+{
+  "screen": "Benefits",
+  "entities": [
+    "Benefit",
+    "UserBenefit"
+  ],
+  "actions": [
+    "applyBenefit",
+    "claimBenefit"
+  ],
+  "fieldsMap": {
+    "特典名": [
+      "Benefit",
+      "title"
+    ],
+    "説明": [
+      "Benefit",
+      "description"
+    ],
+    "閾値": [
+      "Benefit",
+      "threshold_score"
+    ],
+    "状態": [
+      "UserBenefit",
+      "state"
+    ],
+    "価値": [
+      "Benefit",
+      "monetary_value"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "screen": "QuestList",
+  "entities": [
+    "Quest",
+    "Organization",
+    "QuestApplication"
+  ],
+  "actions": [
+    "applyQuest",
+    "viewDetails"
+  ],
+  "fieldsMap": {
+    "タイトル": [
+      "Quest",
+      "title"
+    ],
+    "説明": [
+      "Quest",
+      "description"
+    ],
+    "組織": [
+      "Organization",
+      "name"
+    ],
+    "締切": [
+      "Quest",
+      "deadline"
+    ],
+    "マッチ度": [
+      "Quest",
+      "match_rate"
+    ],
+    "報酬": [
+      "Quest",
+      "reward_total_points"
+    ]
+  }
+}

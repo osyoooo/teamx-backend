@@ -1,0 +1,33 @@
+{
+  "screen": "Study",
+  "entities": [
+    "Course",
+    "UserCourseProgress"
+  ],
+  "actions": [
+    "updateProgress",
+    "completeCourse"
+  ],
+  "fieldsMap": {
+    "タイトル": [
+      "Course",
+      "title"
+    ],
+    "説明": [
+      "Course",
+      "description"
+    ],
+    "提供元": [
+      "Course",
+      "provider"
+    ],
+    "付与ポイント": [
+      "Course",
+      "reward_points"
+    ],
+    "進行状況": [
+      "UserCourseProgress",
+      "status"
+    ]
+  }
+}

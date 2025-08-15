@@ -1,0 +1,36 @@
+{
+  "screen": "Yell",
+  "entities": [
+    "YellProject",
+    "YellSupport"
+  ],
+  "actions": [
+    "support"
+  ],
+  "fieldsMap": {
+    "タイトル": [
+      "YellProject",
+      "title"
+    ],
+    "目標金額": [
+      "YellProject",
+      "target_amount"
+    ],
+    "達成率": [
+      "YellProject",
+      "progress_rate"
+    ],
+    "締切": [
+      "YellProject",
+      "deadline"
+    ],
+    "支援額": [
+      "YellSupport",
+      "amount"
+    ],
+    "コメント": [
+      "YellSupport",
+      "message"
+    ]
+  }
+}

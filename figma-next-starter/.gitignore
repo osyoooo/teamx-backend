@@ -1,0 +1,30 @@
+# OSごとの不要ファイル
+.DS_Store
+Thumbs.db
+
+# 環境ファイル
+.env
+**/.env
+
+# node
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# build
+.next/
+out/
+dist/
+
+# Figma抽出ツールの一時出力
+tools/figma-to-jsx/out/
+
+# FastAPI / Python仮想環境（将来追加する場合）
+.venv/
+__pycache__/
+
+# その他IDE設定
+.vscode/
+.idea/

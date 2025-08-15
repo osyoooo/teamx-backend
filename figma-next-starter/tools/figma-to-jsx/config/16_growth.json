@@ -1,0 +1,20 @@
+{
+  "screen": "Growth",
+  "entities": [
+    "GrowthScore",
+    "ActivityHistory"
+  ],
+  "actions": [
+    "filterHistory"
+  ],
+  "fieldsMap": {
+    "合計スコア": [
+      "GrowthScore",
+      "total_score"
+    ],
+    "今週増加": [
+      "GrowthScore",
+      "weekly_increment"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "screen": "Profile",
+  "entities": [
+    "User",
+    "Profile",
+    "Interest"
+  ],
+  "actions": [
+    "updateProfile",
+    "updateInterests"
+  ],
+  "fieldsMap": {
+    "表示名": [
+      "User",
+      "name"
+    ],
+    "抱負": [
+      "Profile",
+      "aspiration"
+    ],
+    "みつける": [
+      "Profile",
+      "find_score"
+    ],
+    "カタチにする": [
+      "Profile",
+      "shape_score"
+    ],
+    "とどける": [
+      "Profile",
+      "deliver_score"
+    ]
+  }
+}
